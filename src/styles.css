@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.login-card-field .mat-mdc-text-field-wrapper {
+  background: rgba(91, 112, 119, 0.75);
+  border-radius: 29px;
+}
+
+.login-card-field .mdc-notched-outline__leading,
+.login-card-field .mdc-notched-outline__notch,
+.login-card-field .mdc-notched-outline__trailing {
+  border-color: transparent !important;
+}
+
+.login-card-field input::placeholder {
+  color: #20343a;
+  font-weight: 500;
+}
+
+.login-card-field input {
+  color: white;
+}
